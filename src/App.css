@@ -1,0 +1,123 @@
+body {
+  margin: 0; /* Remove default body margin */
+  background-color: teal; /* Set the background color for the entire window */
+}
+
+.App {
+  text-align: center;
+  margin-top: 5dvh;
+  background-color: transparent;
+  font-family:Georgia, 'Times New Roman', Times, serif; /* Set background color to transparent for App component */
+}
+
+input {
+  margin-right: 10px;
+  margin-top: 50px;
+  padding: 10px; /* Increase padding to adjust size */
+  font-size: 16px; /* Increase font size to adjust text size */
+  width: 300px;
+  height: 30px; /* Set the desired width */
+  border: 2px solid black;
+  background-color: blanchedalmond;
+}
+
+
+.completed { 
+  color:rgb(21, 8, 90);
+  font-weight: 300;
+ 
+}
+
+
+#addtaskbutton {
+  /* Add styles for the Add Task button */
+ 
+  width: 100px; 
+  height: 30px;
+  border: 2px solid black;
+  background-color: yellowgreen;
+  border-radius: 15px;
+  animation: blink 3s;
+ 
+}
+
+/* Example styles for other buttons */
+
+
+#editbutton {
+  /* Add styles for the Edit button of task with ID 1 */
+  margin-right: 30px; 
+  background-color: yellowgreen;
+  border-radius: 20px;
+
+
+}
+
+#deletebutton {
+  /* Add styles for the Delete button of task with ID 1 */
+  margin-right: 30px; 
+  background-color: yellowgreen;
+  border-radius: 20px;
+
+
+}
+
+ul {
+  list-style-type: none;
+  padding: 40px;
+  
+}
+
+/* src/App.css */
+
+li {
+  display: flex; /* Use flexbox to align items horizontally */
+  align-items: center; /* Align items vertically in the center */
+  justify-content: space-between; /* Distribute space evenly between items */
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(207, 206, 199);
+  height: 30px;
+  width: 500px;
+  border: 2px solid black;
+  border-radius: 15px;
+
+}
+
+#completebutton {
+  /* Add styles for the Complete button of task with ID 1 */
+  background-color: yellowgreen;
+  height: 20px;
+  width: 70px;
+  border-radius: 20px;
+  border: 2px solid black;
+  vertical-align: middle; /* Align vertically in the middle of the container */
+}
+
+
+#taskname {
+  margin-right:30px;
+  font-size: 20px;
+  font-weight: medium;
+  font-family: 'Lucida Sans';
+  font-weight: bold;
+  
+}
+
+/* src/App.css */
+
+
+.completedButton {
+  width: 5px;
+  height: 5px;
+  border-radius: 30px;
+  border: 2px;
+  /* Set a different border width for completed button */
+  /* You can also apply other styles for completed button here */
+}
+/* Rest of your existing styles... */
+
+  
+
